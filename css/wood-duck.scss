@@ -1,6 +1,6 @@
 /*
     wood-duck
-    Version    : 1.0.0
+    Version    : 1.1.0
     Author     : Sierra
     Author URI : http://tenteroring.luna.ddns.vc/sierra/
     License    : CC BY-SA 4.0
@@ -105,3 +105,24 @@ $side-padding:10mm;
   width: 48%;
 }
 /* ======================================================= */
+/* table of contents ===================================== */
+.wd-index-header{
+  width: 95%;
+  float: right;
+}
+.wd-index{
+  display: flex;
+  height: auto;
+  .wd-index-title{
+    flex: 1;
+    text-align: left;
+  }
+  .wd-index-dots{
+    width: 20mm;
+    text-align: center;
+  }
+  .wd-index-page{
+    width: 15mm;
+    text-align: right;
+  }
+}
