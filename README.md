@@ -3,7 +3,7 @@
 sierraが書いた組版用CSSフレームワーク。
 
 ## バージョン
--v 1.0.0
+-v 1.1.0
 
 ## ライセンス
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
