@@ -40,7 +40,7 @@ html, body{
   padding: 0;
 }
 /* A4 ==================================================== */
-.a4-size:nth-of-type(2n+1){
+.a4-size:nth-of-type(2n){
   display: flex;
   flex-direction: column;
   width: 210mm - $bind-padding - $side-padding;
@@ -49,7 +49,7 @@ html, body{
   max-height: 297mm - $top-padding - $bottom-padding + $a4-correction;
   padding: $top-padding $bind-padding $bottom-padding $side-padding;
 }
-.a4-size:nth-of-type(2n){
+.a4-size:nth-of-type(2n+1){
   display: flex;
   flex-direction: column;
   width: 210mm - $bind-padding - $side-padding;
@@ -60,7 +60,7 @@ html, body{
 }
 /* ======================================================= */
 /* A5 ==================================================== */
-.a5-size:nth-of-type(2n+1){
+.a5-size:nth-of-type(2n){
   display: flex;
   flex-direction: column;
   width: 148mm - $bind-padding - $side-padding;
@@ -69,7 +69,7 @@ html, body{
   max-height: 209mm - $top-padding - $bottom-padding + $a5-correction;
   padding: $top-padding $bind-padding $bottom-padding $side-padding;
 }
-.a5-size:nth-of-type(2n){
+.a5-size:nth-of-type(2n+1){
   display: flex;
   flex-direction: column;
   width: 148mm - $bind-padding - $side-padding;
@@ -80,14 +80,14 @@ html, body{
 }
 /* ======================================================= */
 /* B5 ==================================================== */
-.b5-size:nth-of-type(2n+1){
+.b5-size:nth-of-type(2n){
   display: flex;
   flex-direction: column;
   width: 182mm - $bind-padding - $side-padding;
   height: 256mm - $top-padding - $bottom-padding + $b5-correction;
   padding: $top-padding $bind-padding $bottom-padding $side-padding;
 }
-.b5-size:nth-of-type(2n){
+.b5-size:nth-of-type(2n+1){
   display: flex;
   flex-direction: column;
   width: 182mm - $bind-padding - $side-padding;
